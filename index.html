@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head style="height:100vh">
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <title>Product App</title>
+</head>
+
+<body>
+    <div class="container">
+        <p class="h1">Product App </p>
+        <div id ="alert-warning"></div>
+        <div id="alert"></div>
+        <div class="card mx-auto" style="width: 18rem;">
+            <div class="card-header h5">
+                Add a Product
+            </div>
+            <ul class="list-group list-group-flush">
+                <li class="list-group-item">
+                    <input type="text" class="form-control" id="productName" placeholder="Product Name">
+                    <div class="invalid-feedback">
+                        Add a product name
+                    </div>
+                </li>
+                <li class="list-group-item">
+                    <input type="text" class="form-control" id="productPrice" placeholder="Product Price">
+                    <div class="invalid-feedback">
+                        Add a product price
+                    </div>
+                </li>
+                <li class="list-group-item">
+                    <input type="text" class="form-control" id="productYear" placeholder="Product Year">
+                    <div class="invalid-feedback">
+                        Add a product year
+                    </div>
+                </li>
+                <li class="list-group-item">
+                    <button class="btn btn-primary" type="button" id="saveProduct">Save Product</button>
+                </li>
+            </ul>
+        </div>
+        <br><br>
+        <div id="displayProduct">
+
+        </div>
+    </div>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+        crossorigin="anonymous"></script>
+    <script src="myscript.js"></script>
+</body>
+
+</html>
